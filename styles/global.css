@@ -17,9 +17,16 @@
   /*Cores dos texto  */
   --txt-primary: #313131;
   --txt-secondary: #6C6C6C;
+  /* Variáveis pra fonte */
+  --font-family: "Poppins", sans-serif;
+  --txt: 16px/1.5 var(--font-family);
+  --txt-lg: bold 32px/125% var(--font-family);
+  --txt-md: 14px/175% var(--font-family);
+  --txt-sm: 12px/175% var(--font-family);
 }
 
 body {
+  font: var(--txt); /* para usar font é obrigatório o tamanho e a font-family */ 
   color: var(--txt-secondary);
   background-color: var(--bg-color);
 }
