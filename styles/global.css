@@ -4,3 +4,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Estilos que deverão ser usados no projeto todo, por isso no root */
+:root {
+  /* Cor para o produto */
+  --brand-color: #EF5F4C;
+  /* Cor do Shape */
+  --bg-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #ffffff91;
+  /*Cores dos texto  */
+  --txt-primary: #313131;
+  --txt-secondary: #6C6C6C;
+}
+
+body {
+  color: var(--txt-secondary);
+  background-color: var(--bg-color);
+}
